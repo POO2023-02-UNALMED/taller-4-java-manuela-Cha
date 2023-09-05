@@ -38,8 +38,8 @@ public class Asignatura {
         this.tipo = tipo;
     }
 
-    public void cambiarDatos(int codigoInterno) {
-        this.codigoInterno = codigoInterno;
+    public void cambiarDatos(double codigoInterno) {
+        this.codigoInterno = (int) codigoInterno;
     }
 
     public void cambiarDatos(int codigoExterno) {
