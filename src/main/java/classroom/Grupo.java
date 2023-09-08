@@ -12,7 +12,6 @@ public class Grupo {
         this.estudiantes = estudiantes;
         this.profesor = profesor;
         this.asignatura = asignatura;
-        this.codigo = codigo;
         this.horario = horario;
     }
 
