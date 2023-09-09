@@ -32,7 +32,7 @@ public class Persona {
     }
 
     public Persona(String nombre) {
-        this.nombre = "";
+        this(nombre, 0)
         totalPersonas++;
     }
     
