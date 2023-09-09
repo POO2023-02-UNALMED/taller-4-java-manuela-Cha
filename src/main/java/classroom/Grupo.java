@@ -13,6 +13,7 @@ public class Grupo {
         this.profesor = profesor;
         this.asignatura = asignatura;
         this.horario = horario;
+        this.codigo = codigo;
     }
 
     //Grupo grupo2 = new Grupo(2, profesor2, asignatura2, 10122, "W V 8-10")
