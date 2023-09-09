@@ -5,7 +5,7 @@ public class Asignatura {
     public String nombre;
     String n = nombre;
     public int codigoInterno;
-    public int codigoExterno;
+    public static int codigoExterno;
     public Tipo tipo;
 
     public Asignatura() {
@@ -16,10 +16,12 @@ public class Asignatura {
         this("Sin nombre", codigoInterno, 0,tipo);
     }
 
+    //Asignatura2
     public Asignatura(int codigoExterno,Tipo tipo) {
         this("Sin nombre", 0, codigoExterno,tipo);
     }
-
+    
+    //Asignatura1
     public Asignatura(String nombre, Tipo tipo) {
         this(nombre, 0, 0,tipo);
     }
