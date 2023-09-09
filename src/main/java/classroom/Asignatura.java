@@ -53,7 +53,7 @@ public class Asignatura {
     }
 
     public void setCodigoInterno(int codigoInterno) {
-        this.codigoInterno = codigoInterno;
+        this.codigoInterno = (int) codigoInterno;
     }
     
     public void setCodigoInterno(double codigoInterno) {
