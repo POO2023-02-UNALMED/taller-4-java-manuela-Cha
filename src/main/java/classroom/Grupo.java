@@ -17,7 +17,7 @@ public class Grupo {
 
     //Grupo grupo2 = new Grupo(2, profesor2, asignatura2, 10122, "W V 8-10")
     public Grupo(int cantidadEstudiantes, Persona profesor, Asignatura asignatura, int codigo, String horario) {
-        this(Estudiantes[cantidadEstudiantes], profesor, asignatura, codigo, horario);
+        this(estudiantes[cantidadEstudiantes], profesor, asignatura, codigo, horario);
     }
 
     public Grupo(Persona[] estudiantes, Persona profesor, Asignatura asignatura) {
