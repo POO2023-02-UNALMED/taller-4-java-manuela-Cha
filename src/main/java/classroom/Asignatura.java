@@ -39,7 +39,7 @@ public class Asignatura {
     }
 
     public void cambiarDatos(double codigoInterno) {
-        this.codigoInterno = (int) codigoInterno;
+        this.codigoInterno = codigoInterno;
     }
 
     public void cambiarDatos(int codigoExterno) {
