@@ -5,7 +5,7 @@ public class Asignatura {
     public String nombre;
     String n = nombre;
     public int codigoInterno;
-    public static int codigoExterno;
+    public int codigoExterno;
     public Tipo tipo;
 
     public Asignatura() {
