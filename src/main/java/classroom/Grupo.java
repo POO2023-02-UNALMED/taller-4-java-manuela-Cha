@@ -15,6 +15,7 @@ public class Grupo {
         this.horario = horario;
     }
 
+    //Grupo grupo2 = new Grupo(2, profesor2, asignatura2, 10122, "W V 8-10")
     public Grupo(int cantidadEstudiantes, Persona profesor, Asignatura asignatura, int codigo, String horario) {
         this(new Persona[cantidadEstudiantes], profesor, asignatura, codigo, horario);
     }
